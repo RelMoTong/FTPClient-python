@@ -1,0 +1,456 @@
+2025-03-21 10:34:41,420 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 10:34:41,840 [ERROR] __main__ (gui_client.py:53): 应用程序启动失败: 'MainWindow' object has no attribute 'icons'
+Traceback (most recent call last):
+  File "e:\Python\NewFTP\client\gui_client.py", line 46, in main
+    main_window = MainWindow()
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 32, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 69, in setup_ui
+    self.setup_menu()
+    ~~~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 105, in setup_menu
+    connect_action = QAction(self.icons['connect'], "连接(&C)...", self)
+                             ^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'icons'
+2025-03-21 10:44:52,071 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 10:44:52,319 [ERROR] __main__ (gui_client.py:53): 应用程序启动失败: 'MainWindow' object has no attribute 'icons'
+Traceback (most recent call last):
+  File "e:\Python\NewFTP\client\gui_client.py", line 46, in main
+    main_window = MainWindow()
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 32, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 69, in setup_ui
+    self.setup_menu()
+    ~~~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 105, in setup_menu
+    connect_action = QAction(self.icons['connect'], "连接(&C)...", self)
+                             ^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'icons'
+2025-03-21 10:45:11,100 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 10:45:11,343 [ERROR] __main__ (gui_client.py:53): 应用程序启动失败: 'MainWindow' object has no attribute 'icons'
+Traceback (most recent call last):
+  File "e:\Python\NewFTP\client\gui_client.py", line 46, in main
+    main_window = MainWindow()
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 32, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 69, in setup_ui
+    self.setup_menu()
+    ~~~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 105, in setup_menu
+    connect_action = QAction(self.icons['connect'], "连接(&C)...", self)
+                             ^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'icons'
+2025-03-21 10:48:14,690 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 10:48:14,975 [ERROR] __main__ (gui_client.py:53): 应用程序启动失败: type object 'QStyle' has no attribute 'SP_GearIcon'
+Traceback (most recent call last):
+  File "e:\Python\NewFTP\client\gui_client.py", line 46, in main
+    main_window = MainWindow()
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 32, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 74, in setup_ui
+    self.load_icons()
+    ~~~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 95, in load_icons
+    'settings': style.standardIcon(QStyle.SP_GearIcon),
+                                   ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QStyle' has no attribute 'SP_GearIcon'. Did you mean: 'SP_DirIcon'?
+2025-03-21 10:48:51,272 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 10:48:51,527 [ERROR] __main__ (gui_client.py:53): 应用程序启动失败: type object 'QStyle' has no attribute 'SP_GearIcon'
+Traceback (most recent call last):
+  File "e:\Python\NewFTP\client\gui_client.py", line 46, in main
+    main_window = MainWindow()
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 32, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 74, in setup_ui
+    self.load_icons()
+    ~~~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 95, in load_icons
+    'settings': style.standardIcon(QStyle.SP_GearIcon),
+                                   ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QStyle' has no attribute 'SP_GearIcon'. Did you mean: 'SP_DirIcon'?
+2025-03-21 10:49:16,174 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 10:49:16,450 [ERROR] __main__ (gui_client.py:53): 应用程序启动失败: type object 'QStyle' has no attribute 'SP_GearIcon'
+Traceback (most recent call last):
+  File "e:\Python\NewFTP\client\gui_client.py", line 46, in main
+    main_window = MainWindow()
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 32, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 74, in setup_ui
+    self.load_icons()
+    ~~~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 95, in load_icons
+    'settings': style.standardIcon(QStyle.SP_GearIcon),
+                                   ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QStyle' has no attribute 'SP_GearIcon'. Did you mean: 'SP_DirIcon'?
+2025-03-21 10:58:29,902 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 10:58:30,138 [ERROR] __main__ (gui_client.py:53): 应用程序启动失败: type object 'QStyle' has no attribute 'SP_GearIcon'
+Traceback (most recent call last):
+  File "e:\Python\NewFTP\client\gui_client.py", line 46, in main
+    main_window = MainWindow()
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 32, in __init__
+    self.setup_ui()
+    ~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 74, in setup_ui
+    self.load_icons()
+    ~~~~~~~~~~~~~~~^^
+  File "e:\Python\NewFTP\client\gui\main_window.py", line 95, in load_icons
+    'settings': style.standardIcon(QStyle.SP_GearIcon),
+                                   ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'QStyle' has no attribute 'SP_GearIcon'. Did you mean: 'SP_DirIcon'?
+2025-03-21 11:03:35,443 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:03:53,668 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:06:39,034 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.0.10:21
+2025-03-21 11:06:39,037 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: PASSIVE
+2025-03-21 11:07:07,046 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:07:13,207 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.0.10:21
+2025-03-21 11:07:13,210 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:08:23,732 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:08:27,638 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.0.10:21
+2025-03-21 11:08:27,642 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:08:45,098 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:08:55,867 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.0.10:21
+2025-03-21 11:08:55,870 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:09:16,935 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:09:16,935 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:09:37,976 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:09:37,976 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:09:59,026 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:09:59,027 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:10:20,067 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:10:20,068 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:10:41,099 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:10:41,102 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 11:10:41,102 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 192.168.0.10:21
+2025-03-21 11:10:41,102 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 11:10:41,102 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 11:10:41,103 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:11:02,144 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:11:02,145 [ERROR] client.gui.main_window (main_window.py:473): 任务 task-1 失败: 无法获取FTP客户端连接
+2025-03-21 11:11:02,145 [ERROR] client.transfer_queue (transfer_queue.py:304): 任务失败: task-1 类型: LIST, 错误: 无法获取FTP客户端连接
+2025-03-21 11:11:06,103 [INFO] client.transfer_queue (transfer_queue.py:330): 重试任务: task-1 类型: LIST, 第 1 次重试
+2025-03-21 11:11:11,104 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 11:11:11,104 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:11:29,717 [WARNING] client.transfer_queue (transfer_queue.py:371): 无法取消正在执行的任务: task-1
+2025-03-21 11:11:32,166 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:11:32,166 [ERROR] client.gui.main_window (main_window.py:473): 任务 task-1 失败: 无法获取FTP客户端连接
+2025-03-21 11:11:32,167 [ERROR] client.transfer_queue (transfer_queue.py:304): 任务失败: task-1 类型: LIST, 错误: 无法获取FTP客户端连接
+2025-03-21 11:11:35,693 [INFO] client.transfer_queue (transfer_queue.py:379): 已取消失败任务: task-1
+2025-03-21 11:11:36,806 [INFO] client.advanced_client (advanced_client.py:181): 已关闭所有FTP客户端连接
+2025-03-21 11:11:38,283 [INFO] client.transfer_queue (transfer_queue.py:492): 传输队列已关闭
+2025-03-21 11:11:38,283 [INFO] client.advanced_client (advanced_client.py:508): 已断开FTP连接
+2025-03-21 11:13:36,624 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:13:39,099 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.0.10:21
+2025-03-21 11:13:39,102 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:14:00,154 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:14:00,155 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:14:21,203 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:14:21,204 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:18:21,523 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:18:33,322 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.0.10:21
+2025-03-21 11:18:33,348 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: PASSIVE
+2025-03-21 11:18:54,389 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 连接FTP服务器失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-21 11:18:54,403 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: PASSIVE
+2025-03-21 11:19:13,313 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:19:21,112 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 127.0.0.1:21
+2025-03-21 11:19:21,116 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:19:21,117 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:19:21,117 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:19:21,118 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:19:21,118 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:19:21,136 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:19:21,137 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:19:21,152 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:19:21,152 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:19:21,153 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:19:21,154 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 11:19:21,154 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 127.0.0.1:21
+2025-03-21 11:19:21,155 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 11:19:21,156 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 11:19:21,156 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:19:21,167 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:20:18,342 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 11:20:20,171 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 127.0.0.1:21
+2025-03-21 11:20:20,175 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:20:20,176 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:20:20,176 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:20:20,199 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:20:20,199 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:20:20,200 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:20:20,200 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:20:20,200 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:20:20,201 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:20:20,201 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:20:20,202 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 11:20:20,203 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 127.0.0.1:21
+2025-03-21 11:20:20,203 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 11:20:20,203 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 11:20:20,204 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 11:20:20,214 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 11:22:45,017 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 13:10:51,809 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 13:10:55,963 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 13:10:58,834 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 13:11:01,272 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 13:11:05,261 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 15:31:12,846 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 15:31:16,660 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 15:31:25,960 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 15:32:52,249 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 15:32:52,253 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:32:52,254 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:32:52,254 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:32:52,277 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:32:52,277 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:32:52,277 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:32:52,277 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:32:52,292 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:32:52,292 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:32:52,292 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:32:52,294 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 15:32:52,294 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 192.168.16.149:21
+2025-03-21 15:32:52,294 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 15:32:52,294 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 15:32:52,296 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:32:52,296 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:33:29,738 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 15:33:33,123 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 15:33:33,127 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:33:33,129 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:33:33,129 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:33:33,129 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:33:33,129 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:33:33,130 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:33:33,130 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:33:33,130 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:33:33,130 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:33:33,144 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:33:33,146 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 15:33:33,146 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 192.168.16.149:21
+2025-03-21 15:33:33,146 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 15:33:33,146 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 15:33:33,148 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:33:33,149 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:34:07,785 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 15:34:13,369 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 15:34:13,397 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:34:13,399 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:34:13,412 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:34:13,413 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:34:13,425 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:34:13,426 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:34:13,440 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:34:13,440 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:34:13,453 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:34:13,454 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 15:34:13,456 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 15:34:13,456 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 192.168.16.149:21
+2025-03-21 15:34:13,456 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 15:34:13,458 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 15:34:13,470 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 15:34:13,491 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:13:28,754 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 16:13:28,837 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 16:13:28,839 [INFO] client.advanced_client (advanced_client.py:1120): 传输队列已初始化，最大并发任务数: 3, 自动重试: True
+2025-03-21 16:13:28,839 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-1 已启动
+2025-03-21 16:13:28,839 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-2 已启动
+2025-03-21 16:13:28,839 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-3 已启动
+2025-03-21 16:13:28,839 [INFO] client.advanced_client (advanced_client.py:1140): 已启动 3 个工作线程
+2025-03-21 16:13:53,471 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:13:53,505 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 未连接到FTP服务器
+2025-03-21 16:13:54,544 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 未连接到FTP服务器
+2025-03-21 16:13:55,587 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 未连接到FTP服务器
+2025-03-21 16:13:55,587 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 未连接到FTP服务器
+2025-03-21 16:13:55,587 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 未连接到FTP服务器
+2025-03-21 16:14:04,822 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:14:04,826 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 未连接到FTP服务器
+2025-03-21 16:14:05,827 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 未连接到FTP服务器
+2025-03-21 16:14:06,844 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 未连接到FTP服务器
+2025-03-21 16:14:06,844 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 未连接到FTP服务器
+2025-03-21 16:14:06,844 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 未连接到FTP服务器
+2025-03-21 16:14:10,732 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:14:10,760 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 未连接到FTP服务器
+2025-03-21 16:14:11,777 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 未连接到FTP服务器
+2025-03-21 16:14:12,811 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 未连接到FTP服务器
+2025-03-21 16:14:12,812 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 未连接到FTP服务器
+2025-03-21 16:14:12,812 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 未连接到FTP服务器
+2025-03-21 16:16:43,869 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:16:43,873 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 未连接到FTP服务器
+2025-03-21 16:16:44,887 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 未连接到FTP服务器
+2025-03-21 16:16:45,900 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 未连接到FTP服务器
+2025-03-21 16:16:45,900 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 未连接到FTP服务器
+2025-03-21 16:16:45,900 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 未连接到FTP服务器
+2025-03-21 16:17:40,898 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 16:17:43,314 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:17:43,318 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:17:43,319 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:17:43,319 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:17:43,335 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:17:43,335 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:17:43,336 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:17:43,336 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:17:43,336 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:17:43,336 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:17:43,350 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:17:43,352 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 16:17:43,352 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 192.168.16.149:21
+2025-03-21 16:17:43,352 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 16:17:43,352 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 16:17:43,354 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:17:43,366 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:18:04,414 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 16:18:06,801 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:18:06,804 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:18:06,805 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:18:06,805 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:18:06,823 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:18:06,823 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:18:06,823 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:18:06,823 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:18:06,824 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:18:06,824 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:18:06,838 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:18:06,839 [INFO] client.transfer_queue (transfer_queue.py:211): 传输队列已初始化，最大并发任务数: 5, 自动重试: True
+2025-03-21 16:18:06,840 [INFO] client.advanced_client (advanced_client.py:480): 已连接到FTP服务器 192.168.16.149:21
+2025-03-21 16:18:06,840 [DEBUG] client.transfer_queue (transfer_queue.py:258): 已添加任务 task-1 类型: LIST, 优先级: NORMAL
+2025-03-21 16:18:06,840 [INFO] client.transfer_queue (transfer_queue.py:282): 开始执行任务: task-1 类型: LIST
+2025-03-21 16:18:06,841 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: ACTIVE
+2025-03-21 16:18:06,841 [ERROR] client.advanced_client (advanced_client.py:83): 创建FTP客户端连接失败: 未连接到FTP服务器
+2025-03-21 16:18:09,369 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-21 16:18:27,199 [DEBUG] client.ftp_client (ftp_client.py:383): 连接模式已设置为: PASSIVE
+2025-03-21 16:18:27,201 [ERROR] __main__ (ftp_cli.py:273): 发生错误: 未连接到FTP服务器
+2025-03-21 16:54:49,529 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 16:54:49,608 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 16:54:49,609 [INFO] client.advanced_client (advanced_client.py:1120): 传输队列已初始化，最大并发任务数: 3, 自动重试: True
+2025-03-21 16:54:49,609 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-1 已启动
+2025-03-21 16:54:49,609 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-2 已启动
+2025-03-21 16:54:49,609 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-3 已启动
+2025-03-21 16:54:49,609 [INFO] client.advanced_client (advanced_client.py:1140): 已启动 3 个工作线程
+2025-03-21 16:54:52,012 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:54:52,018 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:54:52,018 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:54:53,018 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:54:53,019 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:54:54,019 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:54:54,020 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:54:54,020 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:54:54,020 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:02,935 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:55:02,941 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:55:02,942 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:03,942 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:55:03,942 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:04,943 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:55:04,943 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:04,943 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:04,944 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:08,964 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:55:08,999 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:55:09,000 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:10,014 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:55:10,016 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:11,029 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:55:11,030 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:11,031 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:55:11,031 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:57:20,461 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 16:57:20,480 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:57:20,481 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:57:21,495 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:57:21,495 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:57:22,510 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 16:57:22,511 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:57:22,511 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 'FTPClient' object has no attribute 'sock'
+2025-03-21 16:57:22,511 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 17:00:49,005 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 17:00:49,057 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 17:00:49,057 [INFO] client.advanced_client (advanced_client.py:1120): 传输队列已初始化，最大并发任务数: 3, 自动重试: True
+2025-03-21 17:00:49,058 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-1 已启动
+2025-03-21 17:00:49,058 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-2 已启动
+2025-03-21 17:00:49,058 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-3 已启动
+2025-03-21 17:00:49,058 [INFO] client.advanced_client (advanced_client.py:1140): 已启动 3 个工作线程
+2025-03-21 17:00:51,232 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 17:00:51,250 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 17:00:51,266 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 17:00:52,281 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 17:00:52,317 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 17:00:53,333 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 17:00:53,374 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 17:00:53,374 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 'FTPClient' object has no attribute 'sock'
+2025-03-21 17:00:53,374 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 'FTPClient' object has no attribute 'sock'
+2025-03-21 18:00:28,036 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 18:00:28,122 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 18:00:28,123 [INFO] client.advanced_client (advanced_client.py:1120): 传输队列已初始化，最大并发任务数: 3, 自动重试: True
+2025-03-21 18:00:28,123 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-1 已启动
+2025-03-21 18:00:28,124 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-2 已启动
+2025-03-21 18:00:28,124 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-3 已启动
+2025-03-21 18:00:28,124 [INFO] client.advanced_client (advanced_client.py:1140): 已启动 3 个工作线程
+2025-03-21 18:00:31,357 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 18:00:31,390 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:00:41,406 [ERROR] client.ftp_client (ftp_client.py:123): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:00:41,407 [INFO] client.ftp_client (ftp_client.py:137): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:00:41,407 [ERROR] client.ftp_client (ftp_client.py:156): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:00:41,408 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:00:42,432 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:00:52,439 [ERROR] client.ftp_client (ftp_client.py:123): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:00:52,439 [INFO] client.ftp_client (ftp_client.py:137): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:00:52,440 [ERROR] client.ftp_client (ftp_client.py:156): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:00:52,442 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:00:53,468 [INFO] client.ftp_client (ftp_client.py:91): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:01:03,483 [ERROR] client.ftp_client (ftp_client.py:123): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:01:03,484 [INFO] client.ftp_client (ftp_client.py:137): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:01:03,484 [ERROR] client.ftp_client (ftp_client.py:156): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:01:03,485 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:01:03,486 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:01:03,486 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:22,794 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 18:02:22,862 [WARNING] client.gui.main_window (main_window.py:31): 注册Qt元类型失败: cannot import name 'qRegisterMetaType' from 'PyQt5.QtCore' (C:\Users\MoTong\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\QtCore.pyd)
+2025-03-21 18:02:22,862 [INFO] client.advanced_client (advanced_client.py:1120): 传输队列已初始化，最大并发任务数: 3, 自动重试: True
+2025-03-21 18:02:22,863 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-1 已启动
+2025-03-21 18:02:22,863 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-2 已启动
+2025-03-21 18:02:22,863 [DEBUG] client.advanced_client (advanced_client.py:1241): FTP-Worker-3 已启动
+2025-03-21 18:02:22,863 [INFO] client.advanced_client (advanced_client.py:1140): 已启动 3 个工作线程
+2025-03-21 18:02:25,206 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 18:02:25,238 [INFO] client.ftp_client (ftp_client.py:162): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:02:35,246 [ERROR] client.ftp_client (ftp_client.py:197): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:35,246 [INFO] client.ftp_client (ftp_client.py:215): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:02:35,247 [ERROR] client.ftp_client (ftp_client.py:234): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:02:35,247 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:36,270 [INFO] client.ftp_client (ftp_client.py:162): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:02:46,281 [ERROR] client.ftp_client (ftp_client.py:197): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:46,281 [INFO] client.ftp_client (ftp_client.py:215): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:02:46,281 [ERROR] client.ftp_client (ftp_client.py:234): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:02:46,282 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:47,308 [INFO] client.ftp_client (ftp_client.py:162): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:02:57,319 [ERROR] client.ftp_client (ftp_client.py:197): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:57,320 [INFO] client.ftp_client (ftp_client.py:215): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:02:57,320 [ERROR] client.ftp_client (ftp_client.py:234): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:02:57,321 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:57,321 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:02:57,322 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:24,970 [INFO] client.gui.login_dialog (login_dialog.py:146): 准备连接到FTP服务器: 192.168.16.149:21
+2025-03-21 18:03:24,975 [INFO] client.ftp_client (ftp_client.py:162): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:03:34,981 [ERROR] client.ftp_client (ftp_client.py:197): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:34,982 [INFO] client.ftp_client (ftp_client.py:215): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:03:34,982 [ERROR] client.ftp_client (ftp_client.py:234): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:03:34,983 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 1/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:35,983 [INFO] client.ftp_client (ftp_client.py:162): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:03:45,998 [ERROR] client.ftp_client (ftp_client.py:197): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:45,999 [INFO] client.ftp_client (ftp_client.py:215): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:03:45,999 [ERROR] client.ftp_client (ftp_client.py:234): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:03:45,999 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 2/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:47,000 [INFO] client.ftp_client (ftp_client.py:162): 正在连接FTP服务器 192.168.16.149:21, 超时设置: 10秒
+2025-03-21 18:03:57,013 [ERROR] client.ftp_client (ftp_client.py:197): 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:57,013 [INFO] client.ftp_client (ftp_client.py:215): 正在诊断连接问题: 192.168.16.149:21
+2025-03-21 18:03:57,013 [ERROR] client.ftp_client (ftp_client.py:234): 连接超时，可能原因: 防火墙阻止、网络问题或服务器未响应
+2025-03-21 18:03:57,014 [WARNING] client.advanced_client (advanced_client.py:1468): 连接尝试 3/3 失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:57,014 [ERROR] client.advanced_client (advanced_client.py:1475): 连接到FTP服务器失败，已重试 2 次: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-21 18:03:57,014 [ERROR] client.gui.main_window (main_window.py:267): 连接失败: 连接到FTP服务器 192.168.16.149:21 失败: timed out
+2025-03-26 08:42:56,765 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-26 08:43:00,606 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json
+2025-03-26 10:44:38,208 [WARNING] root (config.py:26): 配置文件不存在: e:Python\NewFTP\config\client_config.json

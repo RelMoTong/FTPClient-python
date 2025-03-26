@@ -1,0 +1,10 @@
+{
+    "default_host": "localhost",
+    "default_port": 2121,
+    "enable_ssl": true,
+    "timeout": 30,
+    "retry_count": 3,
+    "retry_delay": 5,
+    "max_concurrent_transfers": 3,
+    "log_level": "INFO"
+}

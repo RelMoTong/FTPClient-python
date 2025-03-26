@@ -1,0 +1,17 @@
+{
+    "host": "0.0.0.0",
+    "port": 2121,
+    "pasv_ports": [
+        60000,
+        60100
+    ],
+    "max_connections": 10,
+    "timeout": 300,
+    "enable_ssl": true,
+    "cert_file": "config/server.crt",
+    "key_file": "config/server.key",
+    "db_file": "db/users.db",
+    "allow_list": "config/allow_list.conf",
+    "bandwidth_limit": 10485760,
+    "log_level": "INFO"
+}
